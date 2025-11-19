@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://gramicci.com/?srsltid=AfmBOor-KpCDPszpVuNQpxUUwedZETXWTksCjKE1jC110cbrDKspXHp0
+  https://gramicci.co.uk
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Gramicci Home
