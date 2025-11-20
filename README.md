@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Gramicci Home
-  <img src="readme-images/Outdoor & Urban Lifestyle Clothing  Gramicci.pdf" width="375px" alt="homepagina Gramicci">
+  <img src="readme-images/GramicciHome.png" width="375px" alt="homepagina Gramicci">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Join the G-tribe
-  <img src="readme-images/The G-Pant – Gramicci.pdf" width="375px" alt="The g-pant Gramicci">
+  <img src="readme-images/GramicciGpant.png" width="375px" alt="The g-pant Gramicci">
  
 </details>
 
