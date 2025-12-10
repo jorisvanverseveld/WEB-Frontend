@@ -1,129 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/vsw0vze.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vsw0vze.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <title>Gramicci</title>
 </head>
+
 <body>
-    <Header>
-        <img src="Images/GramicciLogo.jpg" alt="">
-        <ul>
-            <li><a href=""></a>NEW IN</li>
-            <li><a href=""></a>MEN</li>
-            <li><a href=""></a>WOMEN</li>
-            <li><a href=""></a>ACCESSORIES</li>
-            <li><a href=""></a>THE G-PANT</li>
-            <li><a href=""></a>COLLECTIONS</li>
-            <li><a href=""></a>JOURNAL</li>
-            <li><a href=""></a>SALE</li>
-        </ul>
-        <ul>
-            <li><a href=""></a>ACCOUNT</li>
-            <li><a href=""></a>SEARCH</li>
-            <li><a href=""></a>CART</li>
-        </ul>
-    </Header>
-    <main>
-        <section>
-            <img src="Images/GramicciGreaterGoods.png" alt="">
-            <p>Coming soon</p>
-            <h2>Be the first to know -></h2>
-            <img src="Images/GramicciRabHome.jpg" alt="">
-            <p>Out now</p>
-            <h2>Gramicci & Rab -></h2>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                    </ul>
-                </li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
+    <header>
+        <nav class="mobile-only">
+            <div class="mobile-nav">
+                <img src="Images/GramicciLogo.jpg" alt="">
+                <button class="search">#</button>
+                <button class="account">@</button>
+                <button class="cart">%</button>
+                <button href="javascript:void(0);" class="icon" onclick="myFunction()">☰</button>
+            </div>
+            <ul id="mylinks">
+                <li><a href="#">NEW IN</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">ACCESSORIES</a></li>
+                <li><a href="#">THE G-PANT</a></li>
+                <li><a href="#">COLLECTIONS</a></li>
+                <li><a href="#">JOURNAL</a></li>
+                <li><a href="#">SALE</a></li>
             </ul>
+            <ul class="desktop-only">
+                <li><a href="#"></a>ACCOUNT</li>
+                <li><a href="#"></a>SEARCH</li>
+                <li><a href="#"></a>CART</li>
+            </ul>
+        </nav>
+        <nav class="desktop-only">
+            <div class="top-bar">
+                <a href="#">
+                    <img src="Images/GramicciLogo.jpg" alt="Gramicci logo">
+                </a>
+                <div class="account-nav" aria-label="User navigation">
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-nav" aria-label="Main site categories">
+                <ul>
+                    <li><a href="#">New In</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Christmas Gift Shop</a></li>
+                    <li><a href="#">The G-Pant</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#" class="sale">Sale</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <h1>Gramicci home</h1>
+        <section class="gallery-collabs">
+            <div class="image-container">
+                <img src="Images/GramicciGreaterGoods.png" alt="">
+                <p>Coming soon</p>
+                <h2>Be the first to know -></h2>
+            </div>
+            <div class="image-container">
+                <img src="Images/GramicciRabHome.jpg" alt="">
+                <p>Out now</p>
+                <h2>Gramicci & Rab -></h2>
+            </div>
         </section>
-        <section>
-            <img src="Images/GramicciGalaryAsorti1.png" alt="">
-            <h2>Pants →</h2>
-            <img src="Images/GramicciGalaryAsorti2.png" alt="">
-            <h2>Outerwear →</h2>
-            <img src="Images/GramicciGalaryAsorti3.png" alt="">
-            <h2>Men →</h2>
-            <img src="Images/GramicciGalaryAsorti4.png" alt="">
-            <h2>Women →</h2>
-            <img src="Images/GramicciGalaryAsorti5.png" alt="">
-            <h2>Accessories →</h2>
+        <section class="p-slider">
+            <h2>product slider</h2>
+            <a href="">view all</a>
+            <section class="product-slider">
+                <button class="prev">&#10094;</button>
+                <div class="slider-track">
+                    <div class="slide">
+                        <div class="product-carousel">
+                            <button class="prev-photo">&#10094;</button>
+                            <div class="photo-track">
+                                <img src="Images/JasSlideshow1.jpg" alt="Product 1 - Foto 1">
+                                <img src="Images/JasSlideshow2.jpg" alt="Product 1 - Foto 2">
+                                <img src="Images/JasSlideshow3.jpg" alt="Product 1 - Foto 3">
+                                <img src="Images/JasSlideshow4.jpg" alt="">
+                                <img src="Images/JasSlideshow5.jpg" alt="">
+                            </div>
+                            <button class="next-photo">&#10095;</button>
+                        </div>
+                        <p>Gramicci x Rab Neutrino Pro Hoody</p>
+                    </div>
+                    <div class="slide">
+                        <div class="product-carousel">
+                            <button class="prev-photo">&#10094;</button>
+                            <div class="photo-track">
+                                <img src="Images/JasSlideshow1.jpg" alt="Product 1 - Foto 1">
+                                <img src="Images/JasSlideshow2.jpg" alt="Product 1 - Foto 2">
+                                <img src="Images/JasSlideshow3.jpg" alt="Product 1 - Foto 3">
+                                <img src="Images/JasSlideshow4.jpg" alt="">
+                                <img src="Images/JasSlideshow5.jpg" alt="">
+                            </div>
+                            <button class="next-photo">&#10095;</button>
+                        </div>
+                        <p>Gramicci x Rab Neutrino Pro Hoody</p>
+                    </div>
+                    <div class="slide">
+                        <div class="product-carousel">
+                            <button class="prev-photo">&#10094;</button>
+                            <div class="photo-track">
+                                <img src="Images/JasSlideshow1.jpg" alt="Product 1 - Foto 1">
+                                <img src="Images/JasSlideshow2.jpg" alt="Product 1 - Foto 2">
+                                <img src="Images/JasSlideshow3.jpg" alt="Product 1 - Foto 3">
+                                <img src="Images/JasSlideshow4.jpg" alt="">
+                                <img src="Images/JasSlideshow5.jpg" alt="">
+                            </div>
+                            <button class="next-photo">&#10095;</button>
+                        </div>
+                        <p>Gramicci x Rab Neutrino Pro Hoody</p>
+                    </div>
+                    <div class="slide">
+                        <div class="product-carousel">
+                            <button class="prev-photo">&#10094;</button>
+                            <div class="photo-track">
+                                <img src="Images/JasSlideshow1.jpg" alt="Product 1 - Foto 1">
+                                <img src="Images/JasSlideshow2.jpg" alt="Product 1 - Foto 2">
+                                <img src="Images/JasSlideshow3.jpg" alt="Product 1 - Foto 3">
+                                <img src="Images/JasSlideshow4.jpg" alt="">
+                                <img src="Images/JasSlideshow5.jpg" alt="">
+                            </div>
+                            <button class="next-photo">&#10095;</button>
+                        </div>
+                        <p>Gramicci x Rab Neutrino Pro Hoody</p>
+                    </div>
+                    <div class="slide">
+                        <div class="product-carousel">
+                            <button class="prev-photo">&#10094;</button>
+                            <div class="photo-track">
+                                <img src="Images/JasSlideshow1.jpg" alt="Product 1 - Foto 1">
+                                <img src="Images/JasSlideshow2.jpg" alt="Product 1 - Foto 2">
+                                <img src="Images/JasSlideshow3.jpg" alt="Product 1 - Foto 3">
+                                <img src="Images/JasSlideshow4.jpg" alt="">
+                                <img src="Images/JasSlideshow5.jpg" alt="">
+                            </div>
+                            <button class="next-photo">&#10095;</button>
+                        </div>
+                        <p>Gramicci x Rab Neutrino Pro Hoody</p>
+                    </div>
+                </div>
+                
+                <button class="next">&#10095;</button>
+            </section>
+
         </section>
-        <section>
-            <img src="Images/GramicciG-PantPhoto.png" alt="A picture of a man wearing the iconic G-Pant in a white collor">
-            <h2>The Iconic G-Pant</h2>
-            <p>The G-Pant is where it all began, designed in the early 1980s with rock climbing in mind. For 2025, we’ve introduced a new addition to the lineup, the G-Pant Straight Fit.</p>
-            <p>Learn More →</p>
-            <p>Original Freedom</p>
+        <section class="gallery-assortiment">
+            <div class="image-container">
+                <img src="Images/GramicciGalaryAsorti1.png" alt="">
+                <h2 class="label">Pants →</h2>
+            </div>
+            <div class="image-container">
+                <h2 class="label">Outerwear →</h2>
+                <img src="Images/GramicciGalaryAsorti2.png" alt="">
+            </div>
+            <div class="image-container">
+                <h2 class="label">Men →</h2>
+                <img src="Images/GramicciGalaryAsorti3.png" alt="">
+            </div>
+            <div class="image-container">
+                <h2 class="label">Women →</h2>
+                <img src="Images/GramicciGalaryAsorti4.png" alt="">
+            </div>
+            <div class="image-container">
+                <h2 class="label">Accessories →</h2>
+                <img src="Images/GramicciGalaryAsorti5.png" alt="">
+            </div>
         </section>
-        <section>
-            <img src="Images/GramicciLibraryPhoto.png" alt="A Pile of rocks with a book in between">
-            <h2>The Gramicci Library</h2>
-            <p>The Gramicci Library is a fully-functioning in-store library stocked with over 100 climbing guide-books covering the whole of the UK. Based in our London store.</p>
-            <p>Learn More →</p>
-            <p>browse and borrow</p>
+        <section class="ContainerPANTLIBRABRY">
+            <img class="img-desktop" src="Images/GramicciG-PantPhoto.png"
+                alt="A picture of a man wearing the iconic G-Pant in a white color">
+            <img class="img-mobile" src="Images/GramicciG-PantPhotoVerkleind.png"
+                alt="A picture of a man wearing the iconic G-Pant in a white color">
+            <div class="textG-Pant">
+                <h2>The Iconic G-Pant</h2>
+                <h3>ORIGINAL FREEDOM</h3>
+                <p>The G-Pant is where it all began, designed in the early 1980s with rock climbing in mind. For 2025,
+                    we’ve introduced a new addition to the lineup, the G-Pant Straight Fit.</p>
+                <a href="#">Learn More →</a>
+            </div>
         </section>
-        <section>
+        <section class="ContainerPANTLIBRABRY">
+            <img class="img-desktop" src="Images/GramicciLibraryPhoto.png" alt="A Pile of rocks with a book in between">
+            <img class="img-mobile" src="Images/GramicciLibraryPhotoVerkleind.png"
+                alt="A Pile of rocks with a book in between">
+            <div class="text-library">
+                <h2>The Gramicci Library</h2>
+                <h3>BROWSE AND BORROW</h3>
+                <p>The Gramicci Library is a fully-functioning in-store library stocked with over 100 climbing
+                    guide-books
+                    covering the whole of the UK. Based in our London store.</p>
+                <a href="">Learn More →</a>
+            </div>
+        </section>
+        <section class="theJournal">
             <h2><a href="#">The Journal</a></h2>
             <section>
-                <img src="Images/GramicciRabHome.jpg" alt="">
+                <img src="Images/GramicciRabHomeJournal.png" alt="">
                 <h3>Out Now: Gramicci & Rab</h3>
-                <p>This season we've we’ve worked with legendary British outdoor brand Rab on a collection of winter-ready gear that's just as at home pitching a tent at Camp 4 as it is bouldering at Stanage.</p>
-                <p><a href="#">Read more</a></p>
+                <p>This season we've we’ve worked with legendary British outdoor brand Rab on a collection of
+                    winter-ready gear that's just as at home pitching a tent at Camp 4 as it is bouldering at Stanage.
+                </p>
+                <a href="#">Read more</a>
             </section>
             <section>
                 <img src="Images/GramicciRabStory.jpg" alt="">
                 <h3>A Brief History of Rab</h3>
-                <p>From Yosemite to Yorkshire—we’ve worked with legendary British outdoor brand Rab on a collection of winter-ready gear.It’s a collaboration that makes a lot of sense because of the way they started out. Both were founded in the early 80s, both were created by legendary climbers and both weren’t afraid to do things a little differently.</p>
-                <p><a href="#">Read more</a></p>
+                <p>From Yosemite to Yorkshire—we’ve worked with legendary British outdoor brand Rab on a collection of
+                    winter-ready gear.It’s a collaboration that makes a lot of sense because of the way they started
+                    out. Both were founded in the early 80s, both were created by legendary climbers and both weren’t
+                    afraid to do things a little differently.</p>
+                <a href="#" class="link">Read more</a>
             </section>
             <section>
                 <img src="Images/GramicciMerrelParty.jpg" alt="">
                 <h3>The Gramicci & Merrell Party in Photos</h3>
-                <p>To mark the release of the <a href="">Gramicci x Merrell Moab 2 Siren,</a> we hosted a pre-launch party at our London store — a night to celebrate the collaboration and the people around it.</p>
-                <p><a href="#">Read more</a></p>
+                <p>To mark the release of the <a href="">Gramicci x Merrell Moab 2 Siren,</a> we hosted a pre-launch
+                    party at our London store — a night to celebrate the collaboration and the people around it.</p>
+                <a href="#" class="link">Read more</a>
             </section>
         </section>
-    <footer>
-        
-    </footer>
+        <footer>
+            <section class="footer">
+                <h2>Customer Service</h2>
+                <ul>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">Returns & Refunds</a></li>
+                    <li><a href="">Returns Portal</a></li>
+                    <li><a href="">Gifts Cards</a></li>
+                </ul>
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Store</a></li>
+                </ul>
+                <h2>Original Since 1982</h2>
+                <a href="">Outdoor Lifestyle & Climbing Apparel</a>
+                <h2>Join The Movement</h2>
+                <p>Sign up to the newsletter to hear about new arrivals, exclusive offers, stories and early access to
+                    sales.</p>
+                <p>Your Email</p>
+                <Button>SUBSCRIBE</Button>
+            </section>
+            <section class="footerLow">
+                <button>Netherlands (EUR €) </button>
+                <a href="">© 2025 Gramicci.</a>
+                <ul>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Service</a></li>
+                    <li><a href="">Product Transparency</a></li>
+                    <li><a href="">Modern Slavery Statement</a></li>
+                </ul>
+            </section>
+        </footer>
+        <script src="scripts/javascript.js"></script>
 </body>
+
 </html>

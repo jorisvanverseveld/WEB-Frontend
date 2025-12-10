@@ -56,6 +56,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+
   Lijst met je bevindingen die in de test naar voren kwamen:
   slecht
   G-pant
@@ -102,7 +103,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ik ben goed opweg, het was de bedoeling om voor de eerste feedbackronde je html al deels geschreven te hebben. Het is mij gelukt om deze bijna volledig af te hebben.
+
+  Ik wil voor volgende week gaan kijken of ik een beetje Css kan starten.
 
 
   ### Agenda voor meeting
@@ -135,7 +138,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb nog niet echt kunnen zitten aan mijn css waardoor ik nog een beetje op dezelfde plek ben gebleven.
+
+  Wel heb ik nu al mijn HTML afgerond dus het is ready om gebruikt te worden.
 
 
   ### Agenda voor meeting
@@ -168,7 +173,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Ik merk dat ik het lastig vind om te beginnen, ik heb nu veel tijd zitten in vormgeving en richt mijn aandacht daar eerder aan. Daardoor ben ik nog op hetzelfde punt. 
+
+  Dit komt ook omdat ik het nog niet echt snap. ELke keer dat ik er aan ga zitten is het net te veel en ebt de motivatie weg. 
+
+  Ik hoop dat ik volgende week het wel voor elkaar krijg om te starten aan de opdracht.
 
 </details>
 
@@ -182,7 +191,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben nu eindelijk begonnen aan de code, ik vind het nogsteeds lastig maar snap er al iets meer van. Ik loop voor mijn gevoel wel achter, ik moet hem dus echt in de volgende versnelling zetten zodat ik de deadline haal.
 
 
   ### Agenda voor meeting
@@ -215,19 +224,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Sfeer1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/sfeer2.png" width="375px" alt="uitomst opdracht 2">
+  <img src="readme-images/sfeer3.png" width="375px" alt="uitomst opdracht 3">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben Grid helemaal de baas geworden, na veel gekloot heb ik het nu helemaal onder de knie, en heb ik met gemak meerdere grid layouts kunnen maken.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Grid.png" width="375px" alt="top">
+  <img src="readme-images/Grid2.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Op mijn pagina bevond zich een item slider, helaas is het mij niet gelukt om deze te maken, ik kwam hier ook met verschillende tutorials niet uit. Daarom heb ik via chat een versie laten genereren waar ik zelf nog iets aan door heb gewerkt
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/sliderproduct.png" width="375px" alt="bummer">
+  <img src="readme-images/sliderproduct2.png" width="375px" alt="bummer">
 </details>
 
 
@@ -243,8 +256,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. ChatGPT: Prompt: Create Responsive Product Slider Using HTML CSS and JavaScript. Ik heb chat gebruikt om een productslider te maken, hier kwam ik zelf namelijk echt niet uit.
+  2. https://www.w3schools.com/howto/howto_css_image_text.asp (w3schools) Gebruikt voor een tekst overlay, hier had ik in het begin veel moeite mee en daarom kwam ik ook niet verder. Door deze tutorial kwam ik er wel uit.
+  3. https://www.w3schools.com/css/css_rwd_mediaqueries.asp (23schools) om Mediaqueries nog een keer door te nemen.
+  4. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp (w3schools) gebruikt voor de nav bar bij mobiele weergave
 
 </details>

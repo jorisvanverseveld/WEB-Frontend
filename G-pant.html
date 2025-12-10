@@ -1,90 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vsw0vze.css">
+    <link rel="stylesheet" href="https://use.typekit.net/vsw0vze.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <title>G-PANT</title>
 </head>
+
 <body>
-    <Header>
-        <img src="Images/GramicciLogo.jpg" alt="">
-        <ul>
-            <li><a href=""></a>NEW IN</li>
-            <li><a href=""></a>MEN</li>
-            <li><a href=""></a>WOMEN</li>
-            <li><a href=""></a>ACCESSORIES</li>
-            <li><a href=""></a>THE G-PANT</li>
-            <li><a href=""></a>COLLECTIONS</li>
-            <li><a href=""></a>JOURNAL</li>
-            <li><a href=""></a>SALE</li>
-        </ul>
-        <ul>
-            <li><a href=""></a>ACCOUNT</li>
-            <li><a href=""></a>SEARCH</li>
-            <li><a href=""></a>CART</li>
-        </ul>
-    </Header>
+    <header>
+        <nav class="mobile-only">
+            <div class="mobile-nav">
+                <img src="Images/GramicciLogo.jpg" alt="">
+                <button class="search">#</button>
+                <button class="account">@</button>
+                <button class="cart">%</button>
+                <button href="javascript:void(0);" class="icon" onclick="myFunction()">☰</button>
+            </div>
+            <ul id="mylinks">
+                <li><a href="">NEW IN</a></li>
+                <li><a href="">MEN</a></li>
+                <li><a href="">WOMEN</a></li>
+                <li><a href="">ACCESSORIES</a></li>
+                <li><a href="">THE G-PANT</a></li>
+                <li><a href="">COLLECTIONS</a></li>
+                <li><a href="">JOURNAL</a></li>
+                <li><a href="">SALE</a></li>
+            </ul>
+            <ul class="desktop-only">
+                <li><a href=""></a>ACCOUNT</li>
+                <li><a href=""></a>SEARCH</li>
+                <li><a href=""></a>CART</li>
+            </ul>
+        </nav>
+        <nav class="desktop-only">
+            <div class="top-bar">
+                <a href="#">
+                    <img src="Images/GramicciLogo.jpg" alt="Gramicci logo">
+                </a>
+                <div class="account-nav" aria-label="User navigation">
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="category-nav" aria-label="Main site categories">
+                <ul>
+                    <li><a href="#">New In</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Christmas Gift Shop</a></li>
+                    <li><a href="#">The G-Pant</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Journal</a></li>
+                    <li><a href="#" class="sale">Sale</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
     <main>
-        <section>
-            <img src="Images/GramicciG-PantPhoto.png" alt="A picture of a man wearing the iconic G-Pant in a white collor">
-            <h2>The Iconic G-Pant</h2>
-            <p>The G-Pant is where it all began, designed in the early 1980s with rock climbing in mind. For 2025, we’ve introduced a new addition to the lineup, the G-Pant Straight Fit.</p>
-            <p>Learn More →</p>
-            <p>Original Freedom</p>
+        <section class="ContainerG-pant">
+            <img class="img-desktop" src="Images/GramicciG-PantPhoto.png"
+                alt="A picture of a man wearing the iconic G-Pant in a white collor">
+            <img class="img-mobile" src="Images/GramicciG-PantPhotoVerkleind.png" alt="">
+            <div>
+                <h2>The Iconic G-Pant</h2>
+                <h3>ORIGINAL FREEDOM</h3>
+                <ul>
+                    <li><a href="#">G-PANT</a></li>
+                    <li><a href="#">G-PANT STRAIGHT FIT</a></li>
+                    <li><a href="#">ALL G-PANTS</a></li>
+                </ul>
+            </div>
+
         </section>
-        <section>
-            <img src="Images/GramicciGpantClimbing.jpg" alt="A picture of a man wearing the iconic G-Pant while climbing up a mountan">
-            <h2>The Iconic G-Pant</h2>
-            <p>where it all began</p>
-            <p>The G-Pant is where it all began. Designed in the early 1980s with rock climbing in mind, these trousers quickly became a staple for those who valued movement, durability, and function. </p>
-            <p>Tough enough for the crag, but comfortable enough for everyday wear, they laid the blueprint for generations of outdoor-ready gear.</p>
-            <a href="">SHOP NOW</a>
+        <section class="containerBegin">
+            <img src="Images/GramicciGpantClimbing.jpg"
+                alt="A picture of a man wearing the iconic G-Pant while climbing up a mountan">
+
+            <div>
+                <h2>The Original Climbing Pant</h2>
+                <h3>WHERE IT ALL BEGAN</h3>
+                <p>The G-Pant is where it all began. Designed in the early 1980s with rock climbing in mind, these
+                    trousers
+                    quickly became a staple for those who valued movement, durability, and function. </p>
+                <p>Tough enough for the crag, but comfortable enough for everyday wear, they laid the blueprint for
+                    generations of outdoor-ready gear.</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+
         </section>
-        <section>
-            <img src="Images/GramicciG-pant.png" alt="the gramicci g-pant in a brown collor">
-            <h2>180 degree flexibility</h2>
-            <p>where it all began</p>
-            <p>The G-Pant was built for movement. That signature diamond-shaped gusset in the crotch was borrowed from high-kicking karate trousers, it allows for full 180-degree flexibility—perfect for scrambling up rock faces, and for pretty much anyone who needs a bit of extra movement.</p>
-        </section>
-        <section>
+        <section class="fotoboek1">
             <img src="Images/GramicciBook1.jpg" alt="">
             <img src="Images/GramicciBook2.jpg" alt="">
         </section>
-        <section>
-            <img src="Images/GramicciG-PantPhoto2.jpg" alt="A man wearign the gramicci g-pant in a white collor">
-            <h2>Tough, Functional and Timeless</h2>
-            <p>Build to last</p>
-            <p>Made from organic cotton twill, the G-Pant is as tough as they come. </p>
-            <p>The built-in nylon belt and elasticated waistband means they are adjustable and  comfortable. They have a relaxed shape, with a low rise and plenty of room around the hips. The legs gently taper from hip to hem.</p>
-            <p>Over the years, we’ve refined the details, adding a zip fly and rear pockets, but the core design remains unchanged.</p>
-            <a href="">SHOP NOW</a>
+        <section class="containerBegin">
+            <img src="Images/GramicciGpantClimbing.jpg"
+                alt="A picture of a man wearing the iconic G-Pant while climbing up a mountan">
+
+            <div>
+                <h2>The Original Climbing Pant</h2>
+                <h3>WHERE IT ALL BEGAN</h3>
+                <p>The G-Pant is where it all began. Designed in the early 1980s with rock climbing in mind, these
+                    trousers
+                    quickly became a staple for those who valued movement, durability, and function. </p>
+                <p>Tough enough for the crag, but comfortable enough for everyday wear, they laid the blueprint for
+                    generations of outdoor-ready gear.</p>
+                <a href="#">SHOP NOW</a>
+            </div>
+
         </section>
-        <section>
+        <section class="fotoboek2">
             <img src="Images/GramicciFlipBook1.jpg" alt="">
             <img src="Images/GramicciFlipBook2.jpg" alt="">
             <img src="Images/GramicciFlipBook3.jpg" alt="">
             <img src="Images/GramicciFlipBook4.jpg" alt="">
         </section>
-        <section>
-            <img src="Images/GramicciRockWall.png" alt="A orange rock wall">
-            <h2>More Than Just a Climbing Pant</h2>
-            <p>Beyond Yosemite</p>
-            <p>The G-Pant’s versatility took it beyond the cliffs of Yosemite. By the mid-80s, skaters, surfers, and explorers of all kinds were drawn to its durable construction and effortless style. Before long, Gramicci had found a new audience—one that valued function just as much as form.</p>
-            <p>From Japan’s streetwear scene to forward-thinking outdoor stores around the world, the G-Pant cemented its place as an icon.</p>
-        </section>
-        <section>
-            <img src="Images/GramicciG-pantPhoto3.jpg" alt="A man wearing a green version of the Gramicci G-pant">
-            <h2>More Than Just a Climbing Pant</h2>
-            <p>A New Take on a Classic</p>
-            <p>For 2025, we’ve introduced a new addition to the lineup, the G-Pant Straight Fit.</p>
-            <p>It’s everything you love about the original, but with a straight-leg silhouette for an even more relaxed shape. Whereas the G-Pant has an 8 inch hem, the G-Pant Straight-fit has a roomier 9 1/2 inch hem.</p>
-            <p>Wider at the hem and a little shorter in leg length, but still packed with those original Gramicci details, this new version is an alternative for those who like a little extra room.</p>
-            <a href="">Shop G-Pant Straight Fit</a>
-        </section>
-        <section>
-            <img src="Images/GramicciG-pantLoop.jpg" alt="A man bend down wearing a Gramicci G-pant while someone enlargest the logo with a magnifying glass">
-            <h2>Often Imitated, Never Beaten.</h2>
+        <section class="orangeMountain">
+            <img class="img-desktop" src="Images/GramicciRockWall.png" alt="A orange rock wall">
+            <img class="img-mobile" src="Images/GramicciRockWallVerkleind.png" alt="A orange rock wall">
+            <div>
+                <h2>More Than Just a Climbing Pant</h2>
+                <h3>BEYOND YOSEMITE</h3>
+                <p>The G-Pant’s versatility took it beyond the cliffs of Yosemite. By the mid-80s, skaters, surfers, and
+                    explorers of all kinds were drawn to its durable construction and effortless style. Before long,
+                    Gramicci had found a new audience—one that valued function just as much as form.</p>
+                <p>From Japan’s streetwear scene to forward-thinking outdoor stores around the world, the G-Pant
+                    cemented
+                    its place as an icon.</p>
+            </div>
         </section>
     </main>
+    <footer>
+        <section class="footer">
+            <h2>Customer Service</h2>
+            <ul>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Shipping</a></li>
+                <li><a href="">Returns & Refunds</a></li>
+                <li><a href="">Returns Portal</a></li>
+                <li><a href="">Gifts Cards</a></li>
+            </ul>
+            <h2>Company</h2>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+            <h2>Original Since 1982</h2>
+            <a href="">Outdoor Lifestyle & Climbing Apparel</a>
+            <h2>Join The Movement</h2>
+            <p>Sign up to the newsletter to hear about new arrivals, exclusive offers, stories and early access to
+                sales.</p>
+            <p>Your Email</p>
+            <Button>SUBSCRIBE</Button>
+        </section>
+        <section class="footerLow">
+            <button>Netherlands (EUR €) </button>
+            <a href="">© 2025 Gramicci.</a>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of Service</a></li>
+                <li><a href="">Product Transparency</a></li>
+                <li><a href="">Modern Slavery Statement</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="scripts/javascript.js"></script>
 </body>
+
 </html>
