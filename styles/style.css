@@ -17,8 +17,8 @@
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+
 :root {
-  /* startje */
   --color-text: #111;
   --color-link: black;
   --color-background: white;
@@ -35,39 +35,29 @@
   --border-black: 1px solid black;
 }
 
-/* <ul>
-                <li><img src="Images/JasSlideshow1.jpg" alt=""></li>
-                <li><img src="Images/JasSlideshow2.jpg" alt=""></li>
-                <li><img src="Images/JasSlideshow3.jpg" alt=""></li>
-                <li><img src="Images/JasSlideshow4.jpg" alt=""></li>
-                <li><img src="Images/JasSlideshow5.jpg" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <figure class="slideshow">
-            </ul> 
-
-
-
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
+/*==Verborgen Kopjes=================*/
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 /*==Basis styling===================*/
 
 h1 {
-  display: none;
+  font-family: "roboto-mono", monospace;
+  font-weight: 400;
+  font-size: var(--font-size-large);
+  color: var(--color-text);
 }
 
 h2 {
@@ -79,7 +69,6 @@ h2 {
 
 h3 {
   font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-size: 12px;
   color: var(--color-text);
@@ -296,7 +285,6 @@ ul {
   border: none;
   font-size: 18px;
   cursor: pointer;
-  background-color: none;
   box-shadow: none;
 }
 
@@ -676,30 +664,30 @@ footer ul {
     width: 100%;
   }
 
-  .ContainerG-pant h2 {
+  .ContainerG-pant h1 {
     position: absolute;
     top: 40%;
     left: 10%;
     max-width: 540px;
     transform: translate(-10%);
     color: white;
-    font-size: var(--font-size-large);
+    font-size: 32px;
   }
 
   .ContainerG-pant h3 {
     position: absolute;
-    top: 38%;
-    left: 8%;
+    top: 40%;
+    left: 8.5%;
     max-width: 540px;
     transform: translate(-10%);
     color: white;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .ContainerG-pant ul {
     position: absolute;
     display: flex;
-    top: 55%;
+    top: 56%;
     left: 10%;
     max-width: 540px;
     transform: translate(-10%);
@@ -707,7 +695,7 @@ footer ul {
     gap: 1em;
   }
 
-  .ContainerG-pant h2 {
+  .ContainerG-pant h1 {
     margin-top: 1em;
     margin-bottom: 1em;
   }
@@ -861,7 +849,6 @@ footer ul {
     margin: 1em;
     border: none;
     background: none;
-    padding: none;
     font-size: 1.5em;
     margin: 10px;
     color: var(--color-text);
@@ -870,6 +857,9 @@ footer ul {
   nav a.icon {
     grid-column: 1 / 2;
     color: var(--color-text);
+    font-size: 1.6em;
+    margin-top: 2px;
+    margin-left: 7px;
   }
 
   .mobile-nav .search {
@@ -984,7 +974,7 @@ footer ul {
     grid-template-rows: repeat(3, 1fr);
   }
 
-  .ContainerG-pant div h2 {
+  .ContainerG-pant div h1 {
     grid-column: 2/3;
     text-align: center;
     padding-bottom: 1em;
@@ -1029,8 +1019,6 @@ footer ul {
     font-size: small;
     padding-top: 3em;
   }
-
-  footer ul {}
 
   .footer ul li {
     align-self: auto;
@@ -1132,10 +1120,10 @@ footer ul {
   .containerBegin div a {
     margin-top: 0.5em;
     padding: 1.5em;
-    border: 1px solid black;
+    border: var(--border-black);
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
     font-size: 0.8em;
 
   }
@@ -1215,3 +1203,4 @@ footer ul {
   }
 
 }
+
