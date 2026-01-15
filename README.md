@@ -173,11 +173,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Ik merk dat ik het lastig vind om te beginnen, ik heb nu veel tijd zitten in vormgeving en richt mijn aandacht daar eerder aan. Daardoor ben ik nog op hetzelfde punt. 
+  Verbeteringen:
+  1.Ik heb bij alle img een duidelijke alt tekst toegevoegd daardoor is het duidelijk voor een screenreader wat iets is.
+  2.te opzichte van de eerste test heb ik nu een code die helemaal correct is, de validator slaat geen errors aan.
+  3.lang element toegevoegd
+  4.buttons toegevoegd waar er op de site divs gebruikt werden of de verkeerde manier
+  5.light dark mode toegevoegd
+  6.meerdere img gedownscaled. op de site werdt een veel te grote variant gebruikt.
 
-  Dit komt ook omdat ik het nog niet echt snap. ELke keer dat ik er aan ga zitten is het net te veel en ebt de motivatie weg. 
-
-  Ik hoop dat ik volgende week het wel voor elkaar krijg om te starten aan de opdracht.
+  Ik heb ook het Word doc bijgevoegd in mijn inlevermapje. Hier staat de volledige test in.
 
 </details>
 
@@ -260,5 +264,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   2. https://www.w3schools.com/howto/howto_css_image_text.asp (w3schools) Gebruikt voor een tekst overlay, hier had ik in het begin veel moeite mee en daarom kwam ik ook niet verder. Door deze tutorial kwam ik er wel uit.
   3. https://www.w3schools.com/css/css_rwd_mediaqueries.asp (23schools) om Mediaqueries nog een keer door te nemen.
   4. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp (w3schools) gebruikt voor de nav bar bij mobiele weergave
+  5. https://www.youtube.com/watch?v=gmI5nvzv170 voor het maken van de carousel op mijn pagina
 
 </details>
